@@ -84,3 +84,6 @@ squinting_threshold = 0.020  # softer glare
 Have fun 🐱💻
 
 MIT License © 2026 Shana Nursoo  
+
+## nombre
+*carlos
