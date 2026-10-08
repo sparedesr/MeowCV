@@ -24,6 +24,7 @@ eye_opening_threshold = 0.050 # duplique el umbral
 mouth_open_threshold = 0.04 # aumente el valor en 0.01
 squinting_threshold = 0.02 # redondie el valor a 0.02
 
+
 def cat_shock(face_landmark_points):
     l_top = face_landmark_points.landmark[159]
     l_bot = face_landmark_points.landmark[145]
