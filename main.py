@@ -20,9 +20,9 @@ face_mesh = mp.solutions.face_mesh.FaceMesh(
 cam = cv2.VideoCapture(0)
 
 # Thresholds 
-eye_opening_threshold = 0.025
-mouth_open_threshold = 0.03
-squinting_threshold = 0.018
+eye_opening_threshold = 0.010  # Reducido para detectar guiño/ojo abierto al instante
+mouth_open_threshold = 0.018   # Reducido para detectar boca abierta con solo entreabrirla
+squinting_threshold = 0.012    # Reducido para detectar entrecerrado al mínimo gesto
 
 def cat_shock(face_landmark_points):
     l_top = face_landmark_points.landmark[159]
