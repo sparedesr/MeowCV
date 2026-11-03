@@ -101,7 +101,7 @@ def main():
         else:
             blank = image * 0
             cv2.putText(blank, f"Missing: {cat_image}", (30, 60),
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)#me gusta en maniconfitao
             cv2.imshow("Cat Image", blank)
 
 
