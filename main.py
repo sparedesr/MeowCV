@@ -21,7 +21,7 @@ cam = cv2.VideoCapture(0)
 
 # Thresholds 
 eye_opening_threshold = 0.025
-mouth_open_threshold = 0.03
+mouth_open_threshold = 0.025
 squinting_threshold = 0.018
 
 def cat_shock(face_landmark_points):
