@@ -106,7 +106,7 @@ def main():
 
 
         key = cv2.waitKey(1)
-        if key == 27:
+        if key == ord('q'): # Cambiado de 27 (ESC) a ord('q') (Tecla 'Q')
             break
 
 
