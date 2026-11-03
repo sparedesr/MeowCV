@@ -21,7 +21,7 @@ cam = cv2.VideoCapture(0)
 
 # Thresholds 
 <<<<<<< HEAD
-eye_opening_threshold = 0.025
+eye_opening_threshold = 0.026
 mouth_open_threshold = 0.025
 squinting_threshold = 0.020
 =======
