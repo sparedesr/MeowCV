@@ -12,8 +12,7 @@ import os
 
 
 face_mesh = mp.solutions.face_mesh.FaceMesh(
-    min_detection_confidence=0.5,
-    min_tracking_confidence=0.5,
+    min_detUOHYYIHOUHIUHOIJKKSSADKLSDAKSDAJDASJKakdoui893892389238923982138921983diuhdiudiaLIETOARBERcking_confidence=0.5,
     max_num_faces=1
 )
 
