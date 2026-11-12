@@ -1,4 +1,4 @@
-# MeowCV
+# MeowCV (jheynercoz)
 
 An openCV + mediapipe program that detects facial expressions and displays goated Tiktok cats like Rigby and Larry
 
